@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		969B11AC6F6D9BC1425F9B49 /* Pods_stanfordHackathon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B58223C00C0F46B7FB1D50FC /* Pods_stanfordHackathon.framework */; };
+		CB5920FC2123346C002435F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5920FB2123346C002435F9 /* AppDelegate.swift */; };
+		CB5921032123346C002435F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5921022123346C002435F9 /* Assets.xcassets */; };
+		CB5921062123346C002435F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB5921042123346C002435F9 /* LaunchScreen.storyboard */; };
+		CBE70C25235BF8AE005D3BBF /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C24235BF8AE005D3BBF /* Menu.swift */; };
+		CBE70C27235BF8B8005D3BBF /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C26235BF8B8005D3BBF /* MenuCell.swift */; };
+		CBE70C2A235BF9AA005D3BBF /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C29235BF9AA005D3BBF /* Colors.swift */; };
+		CBE70C2C235BF9BB005D3BBF /* Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C2B235BF9BB005D3BBF /* Anchors.swift */; };
+		CBE70C2E235C0132005D3BBF /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C2D235C0132005D3BBF /* DashboardController.swift */; };
+		CBE70C30235C0360005D3BBF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C2F235C0360005D3BBF /* SettingsView.swift */; };
+		CBE70C32235C046A005D3BBF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C31235C046A005D3BBF /* LoginController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60B1A9D8C64696E38E831F85 /* Pods-stanfordHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stanfordHackathon.debug.xcconfig"; path = "Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		B58223C00C0F46B7FB1D50FC /* Pods_stanfordHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_stanfordHackathon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5920F82123346C002435F9 /* stanfordHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stanfordHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB5920FB2123346C002435F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB5921022123346C002435F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB5921052123346C002435F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB5921072123346C002435F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBE70C24235BF8AE005D3BBF /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		CBE70C26235BF8B8005D3BBF /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		CBE70C29235BF9AA005D3BBF /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		CBE70C2B235BF9BB005D3BBF /* Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchors.swift; sourceTree = "<group>"; };
+		CBE70C2D235C0132005D3BBF /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
+		CBE70C2F235C0360005D3BBF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CBE70C31235C046A005D3BBF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		E6F8C08B8C0E8186041C01C0 /* Pods-stanfordHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stanfordHackathon.release.xcconfig"; path = "Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon.release.xcconfig"; sourceTree = "<group>"; };
+		FAE1B8659A91B4A7D8309BC4 /* Pods_SustainabilityApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainabilityApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB5920F52123346C002435F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969B11AC6F6D9BC1425F9B49 /* Pods_stanfordHackathon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FE83D6F275F1310C4B7491 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE1B8659A91B4A7D8309BC4 /* Pods_SustainabilityApplication.framework */,
+				B58223C00C0F46B7FB1D50FC /* Pods_stanfordHackathon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		815E166CB26547E480E8EB2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60B1A9D8C64696E38E831F85 /* Pods-stanfordHackathon.debug.xcconfig */,
+				E6F8C08B8C0E8186041C01C0 /* Pods-stanfordHackathon.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB5920EF2123346C002435F9 = {
+			isa = PBXGroup;
+			children = (
+				CB5920FA2123346C002435F9 /* stanfordHackathon */,
+				CB5920F92123346C002435F9 /* Products */,
+				53FE83D6F275F1310C4B7491 /* Frameworks */,
+				815E166CB26547E480E8EB2E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		CB5920F92123346C002435F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB5920F82123346C002435F9 /* stanfordHackathon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB5920FA2123346C002435F9 /* stanfordHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				CBE70C2D235C0132005D3BBF /* DashboardController.swift */,
+				CBE70C23235BF89F005D3BBF /* Menu */,
+				CB5921042123346C002435F9 /* LaunchScreen.storyboard */,
+				CB5920FB2123346C002435F9 /* AppDelegate.swift */,
+				CB5921022123346C002435F9 /* Assets.xcassets */,
+				CB5921072123346C002435F9 /* Info.plist */,
+				CBE70C28235BF983005D3BBF /* Extensions */,
+				CBE70C2F235C0360005D3BBF /* SettingsView.swift */,
+				CBE70C31235C046A005D3BBF /* LoginController.swift */,
+			);
+			path = stanfordHackathon;
+			sourceTree = "<group>";
+		};
+		CBE70C23235BF89F005D3BBF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				CBE70C24235BF8AE005D3BBF /* Menu.swift */,
+				CBE70C26235BF8B8005D3BBF /* MenuCell.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		CBE70C28235BF983005D3BBF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				CBE70C29235BF9AA005D3BBF /* Colors.swift */,
+				CBE70C2B235BF9BB005D3BBF /* Anchors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB5920F72123346C002435F9 /* stanfordHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB59210A2123346C002435F9 /* Build configuration list for PBXNativeTarget "stanfordHackathon" */;
+			buildPhases = (
+				71B7D7818E720B462E4B45CB /* [CP] Check Pods Manifest.lock */,
+				CB5920F42123346C002435F9 /* Sources */,
+				CB5920F52123346C002435F9 /* Frameworks */,
+				CB5920F62123346C002435F9 /* Resources */,
+<<<<<<< HEAD
+				D2CB62B5A6BB8C56EF4575D7 /* [CP] Embed Pods Frameworks */,
+=======
+>>>>>>> origin/master
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stanfordHackathon;
+			productName = SustainabilityApplication;
+			productReference = CB5920F82123346C002435F9 /* stanfordHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB5920F02123346C002435F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "C-LongDev";
+				TargetAttributes = {
+					CB5920F72123346C002435F9 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = QQ9GJ5JUCU;
+<<<<<<< HEAD
+						LastSwiftMigration = 1100;
+=======
+>>>>>>> origin/master
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CB5920F32123346C002435F9 /* Build configuration list for PBXProject "stanfordHackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = CB5920EF2123346C002435F9;
+			productRefGroup = CB5920F92123346C002435F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB5920F72123346C002435F9 /* stanfordHackathon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB5920F62123346C002435F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5921062123346C002435F9 /* LaunchScreen.storyboard in Resources */,
+				CB5921032123346C002435F9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71B7D7818E720B462E4B45CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-stanfordHackathon-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+<<<<<<< HEAD
+		D2CB62B5A6BB8C56EF4575D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MongoMobile/MongoMobile.framework",
+				"${BUILT_PRODUCTS_DIR}/MongoSwift/MongoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCore/StitchCore.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCoreLocalMongoDBService/StitchCoreLocalMongoDBService.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchCoreSDK/StitchCoreSDK.framework",
+				"${BUILT_PRODUCTS_DIR}/StitchRemoteMongoDBService/StitchRemoteMongoDBService.framework",
+				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework",
+				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework.dSYM",
+				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework",
+				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework.dSYM",
+				"${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework",
+				"${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework.dSYM",
+				"${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework",
+				"${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework.dSYM",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MongoMobile.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MongoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreLocalMongoDBService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreRemoteMongoDBService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchRemoteMongoDBService.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bson.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/bson.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongoc.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/mongoc.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongo_embedded.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/mongo_embedded.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongoc_embedded.framework",
+				"${DWARF_DSYM_FOLDER_PATH}/mongoc_embedded.framework.dSYM",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+=======
+>>>>>>> origin/master
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB5920F42123346C002435F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE70C30235C0360005D3BBF /* SettingsView.swift in Sources */,
+				CBE70C25235BF8AE005D3BBF /* Menu.swift in Sources */,
+				CBE70C2A235BF9AA005D3BBF /* Colors.swift in Sources */,
+				CBE70C2C235BF9BB005D3BBF /* Anchors.swift in Sources */,
+				CBE70C27235BF8B8005D3BBF /* MenuCell.swift in Sources */,
+				CBE70C32235C046A005D3BBF /* LoginController.swift in Sources */,
+				CBE70C2E235C0132005D3BBF /* DashboardController.swift in Sources */,
+				CB5920FC2123346C002435F9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CB5921042123346C002435F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB5921052123346C002435F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB5921082123346C002435F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+>>>>>>> origin/master
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB5921092123346C002435F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+>>>>>>> origin/master
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB59210B2123346C002435F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60B1A9D8C64696E38E831F85 /* Pods-stanfordHackathon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQ9GJ5JUCU;
+				INFOPLIST_FILE = stanfordHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chandlerlong.stanfordHackathon;
+				PRODUCT_NAME = stanfordHackathon;
+<<<<<<< HEAD
+				SWIFT_VERSION = 5.0;
+=======
+				SWIFT_VERSION = 4.0;
+>>>>>>> origin/master
+			};
+			name = Debug;
+		};
+		CB59210C2123346C002435F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6F8C08B8C0E8186041C01C0 /* Pods-stanfordHackathon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = QQ9GJ5JUCU;
+				INFOPLIST_FILE = stanfordHackathon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chandlerlong.stanfordHackathon;
+				PRODUCT_NAME = stanfordHackathon;
+<<<<<<< HEAD
+				SWIFT_VERSION = 5.0;
+=======
+				SWIFT_VERSION = 4.0;
+>>>>>>> origin/master
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB5920F32123346C002435F9 /* Build configuration list for PBXProject "stanfordHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB5921082123346C002435F9 /* Debug */,
+				CB5921092123346C002435F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB59210A2123346C002435F9 /* Build configuration list for PBXNativeTarget "stanfordHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB59210B2123346C002435F9 /* Debug */,
+				CB59210C2123346C002435F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB5920F02123346C002435F9 /* Project object */;
+}

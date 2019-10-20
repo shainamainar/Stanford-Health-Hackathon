@@ -1,4 +1,3 @@
-
 def main():
     ing2 = parseHash("recipes.txt")
     print(ing2)
@@ -10,7 +9,6 @@ def parseHash(file):
     for line in f.readlines():
         if(line[0] != '['):
             titles.append(line.strip('\n'))
-            
         else:
             line = line.split(', ')
             newArr = []
