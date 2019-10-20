@@ -1,14 +1,10 @@
 Healthy Stuffed Chicken Breast
-[chicken breast, mozzarella, artichoke, tomato, basil leaf, garlic, curry powder, paprika, pepper]
-
+chicken breast, mozzarella, artichoke, tomato, basil leaf, garlic, curry powder, paprika, pepper
 Spinach Rolls
-[spinach, eggs, onion, carrot, mozzarella, cottage cheese, parsley, garlic, curry powder, chili flakes, salt, pepper]
-
+spinach, eggs, onion, carrot, mozzarella, cottage cheese, parsley, garlic, curry powder, chili flakes, salt, pepper
 Low Carb Zucchini Lasagna
-[beef, zucchini, onion, garlic, chili, tomato, mushrooms, Knorr, mozzarella, paprika, thyme, dried basil, salt, pepper]
-
+beef, zucchini, onion, garlic, chili, tomato, mushrooms, Knorr, mozzarella, paprika, thyme, dried basil, salt, pepper
 Coconnut Chicken Soup
-[chicken breast, salt, pepper, coconut oil, onion, garlic, ginger, zucchini, pumpkin, red bell pepper, chili | jalapeno, coconut milk, chicken broth, lime, cilantro]
-
+chicken breast, salt, pepper, coconut oil, onion, garlic, ginger, zucchini, pumpkin, red bell pepper, chili | jalapeno, coconut milk, chicken broth, lime, cilantro
 Marinated Turkey Breast
-[turkey breast, olive oil, balsamic vinegar, garlic powder, dried basil, thyme, pepper]
+turkey breast, olive oil, balsamic vinegar, garlic powder, dried basil, thyme, pepper
