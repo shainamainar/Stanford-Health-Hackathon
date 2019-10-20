@@ -7,8 +7,11 @@
 //
 
 import UIKit
+<<<<<<< HEAD
 import StitchCore
 import StitchRemoteMongoDBService
+=======
+>>>>>>> origin/master
 
 class DashboardController: UITableViewController {
 
@@ -16,6 +19,7 @@ class DashboardController: UITableViewController {
         super.viewDidLoad()
 
         setUpNavigationBar()
+<<<<<<< HEAD
         
         mongoClient()
     }
@@ -39,6 +43,10 @@ class DashboardController: UITableViewController {
             }
     }
     
+=======
+    }
+
+>>>>>>> origin/master
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {

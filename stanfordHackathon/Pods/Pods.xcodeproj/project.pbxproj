@@ -6,6 +6,7 @@
 	objectVersion = 46;
 	objects = {
 
+<<<<<<< HEAD
 /* Begin PBXAggregateTarget section */
 		137B78A358E7FA2E57CF03F48E41B953 /* StitchSDK */ = {
 			isa = PBXAggregateTarget;
@@ -796,12 +797,41 @@
 			files = (
 				CAE87B09369E3254E914F91F9F2494CA /* Foundation.framework in Frameworks */,
 				8A80D25D1B8BD385E7D43BDED95450BC /* MongoSwift.framework in Frameworks */,
+=======
+/* Begin PBXBuildFile section */
+		0E45A77D5094424865C79A61E707EB2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5DC8E11D25206E1380AB8FD7AD72CD7A /* Pods-stanfordHackathon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1562414CC6F24728A7EFD8484ADF0F /* Pods-stanfordHackathon-dummy.m */; };
+		E766B074E7BAABBE61350A0F0DC5E0D0 /* Pods-stanfordHackathon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF69676FF789621957CCE7F455DB3C69 /* Pods-stanfordHackathon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9BB61103D9A8B2DB26A737B222853944 /* Pods-stanfordHackathon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-stanfordHackathon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9BDACE9522B94794197BFCB183D2E2E8 /* Pods-stanfordHackathon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stanfordHackathon.debug.xcconfig"; sourceTree = "<group>"; };
+		9BFA3B7F8872E820A24B7C9050D9F221 /* Pods_stanfordHackathon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_stanfordHackathon.framework; path = "Pods-stanfordHackathon.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B114B3B90493D62012BFED32AE9281D3 /* Pods-stanfordHackathon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stanfordHackathon-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB1562414CC6F24728A7EFD8484ADF0F /* Pods-stanfordHackathon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-stanfordHackathon-dummy.m"; sourceTree = "<group>"; };
+		C0327A29D6F3F69557B2C68F5FE34205 /* Pods-stanfordHackathon-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-stanfordHackathon-Info.plist"; sourceTree = "<group>"; };
+		CA6625FA0FA78A1C56F93B47FA4CB6C0 /* Pods-stanfordHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-stanfordHackathon.release.xcconfig"; sourceTree = "<group>"; };
+		DE5B5B3641CB84B46B8A29F12FCAF677 /* Pods-stanfordHackathon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-stanfordHackathon.modulemap"; sourceTree = "<group>"; };
+		FF69676FF789621957CCE7F455DB3C69 /* Pods-stanfordHackathon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-stanfordHackathon-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2ADB512A9D05C7B418F25377139F06A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E45A77D5094424865C79A61E707EB2D /* Foundation.framework in Frameworks */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		13B0532258EC9BFEC6DB604CB0B78537 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -1163,10 +1193,17 @@
 				029860FE9B8C5513291C1CACD08AE444 /* StitchCoreRemoteMongoDBService.framework */,
 				D661D0117F33CD12FF2A5EDD4E9F903E /* StitchCoreSDK.framework */,
 				C6EFA23EDB7198A332CF5A204AA3D2A2 /* StitchRemoteMongoDBService.framework */,
+=======
+		75D933EEB6F85ED91F4A6B44CCB42F47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BFA3B7F8872E820A24B7C9050D9F221 /* Pods_stanfordHackathon.framework */,
+>>>>>>> origin/master
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		B153F04CC72791F1498B4376650AEB53 /* MongoMobile */ = {
 			isa = PBXGroup;
 			children = (
@@ -1228,11 +1265,25 @@
 				D58C66758B9CEF6EE33EB5F5143D553E /* Pods-stanfordHackathon-umbrella.h */,
 				6452CCCE8B2696827B3B148E6ED4FF54 /* Pods-stanfordHackathon.debug.xcconfig */,
 				0FE5DDD7F3439C5443BAA07DB1DAAAB7 /* Pods-stanfordHackathon.release.xcconfig */,
+=======
+		AB3E77C0E4D76CC1AC744D628FA8A2A9 /* Pods-stanfordHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				DE5B5B3641CB84B46B8A29F12FCAF677 /* Pods-stanfordHackathon.modulemap */,
+				9BB61103D9A8B2DB26A737B222853944 /* Pods-stanfordHackathon-acknowledgements.markdown */,
+				B114B3B90493D62012BFED32AE9281D3 /* Pods-stanfordHackathon-acknowledgements.plist */,
+				BB1562414CC6F24728A7EFD8484ADF0F /* Pods-stanfordHackathon-dummy.m */,
+				C0327A29D6F3F69557B2C68F5FE34205 /* Pods-stanfordHackathon-Info.plist */,
+				FF69676FF789621957CCE7F455DB3C69 /* Pods-stanfordHackathon-umbrella.h */,
+				9BDACE9522B94794197BFCB183D2E2E8 /* Pods-stanfordHackathon.debug.xcconfig */,
+				CA6625FA0FA78A1C56F93B47FA4CB6C0 /* Pods-stanfordHackathon.release.xcconfig */,
+>>>>>>> origin/master
 			);
 			name = "Pods-stanfordHackathon";
 			path = "Target Support Files/Pods-stanfordHackathon";
 			sourceTree = "<group>";
 		};
+<<<<<<< HEAD
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -1341,11 +1392,46 @@
 			);
 			name = StitchCore;
 			path = StitchCore;
+=======
+		AC12028B3FD855184C3F05C1B42C514E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3E77C0E4D76CC1AC744D628FA8A2A9 /* Pods-stanfordHackathon */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				75D933EEB6F85ED91F4A6B44CCB42F47 /* Products */,
+				AC12028B3FD855184C3F05C1B42C514E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+>>>>>>> origin/master
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+<<<<<<< HEAD
 		28829317B49092F621C1D49CFC7CA841 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1407,12 +1493,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D1A3B005657A007C634F0EC835F9800 /* Pods-stanfordHackathon-umbrella.h in Headers */,
+=======
+		DE60C270C308E5E1960C1017FFCA5554 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E766B074E7BAABBE61350A0F0DC5E0D0 /* Pods-stanfordHackathon-umbrella.h in Headers */,
+>>>>>>> origin/master
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< HEAD
 		1718F285CEF691718038C9726A4B5FF9 /* StitchCoreLocalMongoDBService */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E27B30C33721C9B5874717E53972668C /* Build configuration list for PBXNativeTarget "StitchCoreLocalMongoDBService" */;
@@ -2706,6 +2800,79 @@
 			baseConfigurationReference = 6F47D74A851773216EC56835DFFBA482 /* StitchRemoteMongoDBService.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+=======
+		F964C089D18D81886352F0E7A463A470 /* Pods-stanfordHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FEDB4182B49C2E57CBD459FD8D681A2 /* Build configuration list for PBXNativeTarget "Pods-stanfordHackathon" */;
+			buildPhases = (
+				DE60C270C308E5E1960C1017FFCA5554 /* Headers */,
+				99C4F5EFD1BDCB8A5FC6337D07F25414 /* Sources */,
+				2ADB512A9D05C7B418F25377139F06A1 /* Frameworks */,
+				4DE5B1CEF94E084C16A818ED4EFE9E1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-stanfordHackathon";
+			productName = "Pods-stanfordHackathon";
+			productReference = 9BFA3B7F8872E820A24B7C9050D9F221 /* Pods_stanfordHackathon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 75D933EEB6F85ED91F4A6B44CCB42F47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F964C089D18D81886352F0E7A463A470 /* Pods-stanfordHackathon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4DE5B1CEF94E084C16A818ED4EFE9E1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99C4F5EFD1BDCB8A5FC6337D07F25414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DC8E11D25206E1380AB8FD7AD72CD7A /* Pods-stanfordHackathon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2C43BA621043E8F6575F84D0CF0E2BFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6625FA0FA78A1C56F93B47FA4CB6C0 /* Pods-stanfordHackathon.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+>>>>>>> origin/master
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2716,6 +2883,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+<<<<<<< HEAD
 				GCC_PREFIX_HEADER = "Target Support Files/StitchRemoteMongoDBService/StitchRemoteMongoDBService-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/StitchRemoteMongoDBService/StitchRemoteMongoDBService-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -2728,6 +2896,21 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
+=======
+				INFOPLIST_FILE = "Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+>>>>>>> origin/master
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -2735,6 +2918,7 @@
 			};
 			name = Release;
 		};
+<<<<<<< HEAD
 		D3672AC4273E83DA82327FA12941E556 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38694F044FCD88F704F56D289D86CAF2 /* mongo-embedded-c-driver.xcconfig */;
@@ -2768,6 +2952,9 @@
 			name = Release;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+=======
+		2F5CE9157A6944C572608740FA41A6A5 /* Debug */ = {
+>>>>>>> origin/master
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -2818,7 +3005,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+>>>>>>> origin/master
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -2831,6 +3022,7 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 		F929A4D6F894A7446C9B1BCD2E7C497B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 38694F044FCD88F704F56D289D86CAF2 /* mongo-embedded-c-driver.xcconfig */;
@@ -2852,6 +3044,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+=======
+		91DE5A06DC62F771943D3B595A2E3D95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BDACE9522B94794197BFCB183D2E2E8 /* Pods-stanfordHackathon.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+>>>>>>> origin/master
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -2864,7 +3063,11 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+<<<<<<< HEAD
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+>>>>>>> origin/master
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon.modulemap";
@@ -2881,6 +3084,7 @@
 			};
 			name = Debug;
 		};
+<<<<<<< HEAD
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2988,15 +3192,93 @@
 			buildConfigurations = (
 				ADA989D9D13A44F16260E215DB166698 /* Debug */,
 				C76A1B9B6ADB10516477C9CD2A4723C7 /* Release */,
+=======
+		B102853BB3392A16E68667C38114BC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5CE9157A6944C572608740FA41A6A5 /* Debug */,
+				B102853BB3392A16E68667C38114BC6A /* Release */,
+>>>>>>> origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< HEAD
 		E27B30C33721C9B5874717E53972668C /* Build configuration list for PBXNativeTarget "StitchCoreLocalMongoDBService" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DDA1D4F535DA3E9467F4DDD90C23B2A /* Debug */,
 				75CC3713065A28B9268C1216EF21A6C8 /* Release */,
+=======
+		5FEDB4182B49C2E57CBD459FD8D681A2 /* Build configuration list for PBXNativeTarget "Pods-stanfordHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91DE5A06DC62F771943D3B595A2E3D95 /* Debug */,
+				2C43BA621043E8F6575F84D0CF0E2BFE /* Release */,
+>>>>>>> origin/master
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

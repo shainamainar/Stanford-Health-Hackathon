@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 PODS:
   - mongo-embedded-c-driver (1.13.0-4.0.4)
   - mongo_embedded (4.0.4)
@@ -63,3 +64,8 @@ SPEC CHECKSUMS:
 PODFILE CHECKSUM: 33f788864562a4748277475a53b943cdbef03d24
 
 COCOAPODS: 1.8.4
+=======
+PODFILE CHECKSUM: cedc82aa62448ec45c43f358c09b9818173ee37c
+
+COCOAPODS: 1.8.3
+>>>>>>> origin/master

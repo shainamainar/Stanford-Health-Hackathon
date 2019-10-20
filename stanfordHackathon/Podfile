@@ -6,6 +6,9 @@ target 'stanfordHackathon' do
   use_frameworks!
 
   # Pods for stanfordHackathon
+<<<<<<< HEAD
   pod 'StitchSDK', '= 6.1.0'
+=======
+>>>>>>> origin/master
 
 end

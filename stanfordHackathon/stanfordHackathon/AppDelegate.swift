@@ -7,23 +7,35 @@
 //
 
 import UIKit
+<<<<<<< HEAD
 import StitchCore
+=======
+>>>>>>> origin/master
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+<<<<<<< HEAD
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         UINavigationBar.appearance().barTintColor = Color.red
         UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor : UIColor.white]
+=======
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        UINavigationBar.appearance().barTintColor = Color.red
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
+>>>>>>> origin/master
                 
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
         window?.rootViewController = UINavigationController(rootViewController: DashboardController())
+<<<<<<< HEAD
         
         do {
             _ = try Stitch.initializeDefaultAppClient(
@@ -36,6 +48,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             // app ID is initialized multiple times. See the documentation of the "Stitch"
             // class for more details.
         }
+=======
+>>>>>>> origin/master
 
         return true
     }
