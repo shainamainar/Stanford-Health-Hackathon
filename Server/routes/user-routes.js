@@ -8,12 +8,12 @@ const secret = require('../config');
 //********* REGISTER ROUTE *************\\
 
 router.post('/register', (req, res) => {
-  const { email, password, username } = req.body;
+  const { email, password, name } = req.body;
 
   let newUser = new User({
     email,
     password,
-    username
+    name
   });
 
   newUser
@@ -36,8 +36,8 @@ router.post('/register', (req, res) => {
 //********* LOGIN ROUTE *************\\
 
 router.post('/login', (req, res) => {
-  const { username, password } = req.body;
-  User.findOne({ username })
+  const { name, password } = req.body;
+  User.findOne({ name })
     .then(user => {
       if (!user) {
         return res.status(400).send();

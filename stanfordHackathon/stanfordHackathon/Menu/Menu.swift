@@ -142,17 +142,17 @@ class Menu: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UIColl
     
     let nameLabel: UILabel = {
         let text = UILabel()
-        text.text = "No Name"
+        text.text = "Chandler"
         text.font =  UIFont(name: "Avenir Next", size: 18.0)
         text.translatesAutoresizingMaskIntoConstraints = false
-        text.textColor = Color.red
+        text.textColor = UIColor.darkGray
         
         return text
     }()
     
     let profileImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.image = UIImage(named: "blankProfile")
+        imageView.image = UIImage(named: "profile")
         imageView.layer.masksToBounds = false
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.layer.cornerRadius = 40

@@ -23,6 +23,10 @@
 		CBE70C44235C5C67005D3BBF /* dribbble-lines.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBE70C43235C5C67005D3BBF /* dribbble-lines.gif */; };
 		CBE70C47235C749E005D3BBF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C46235C749E005D3BBF /* User.swift */; };
 		CBE70C49235C750D005D3BBF /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C48235C750D005D3BBF /* NetworkServices.swift */; };
+		CBE70C4C235CED2B005D3BBF /* VitalsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C4B235CED2B005D3BBF /* VitalsController.swift */; };
+		CBE70C4E235CED5B005D3BBF /* DietController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C4D235CED5B005D3BBF /* DietController.swift */; };
+		CBE70C50235CFF01005D3BBF /* MedicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C4F235CFF01005D3BBF /* MedicationController.swift */; };
+		CBE70C52235D0093005D3BBF /* ExerciseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C51235D0093005D3BBF /* ExerciseController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +49,10 @@
 		CBE70C43235C5C67005D3BBF /* dribbble-lines.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "dribbble-lines.gif"; path = "../../../dribbble-lines.gif"; sourceTree = "<group>"; };
 		CBE70C46235C749E005D3BBF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CBE70C48235C750D005D3BBF /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		CBE70C4B235CED2B005D3BBF /* VitalsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalsController.swift; sourceTree = "<group>"; };
+		CBE70C4D235CED5B005D3BBF /* DietController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietController.swift; sourceTree = "<group>"; };
+		CBE70C4F235CFF01005D3BBF /* MedicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicationController.swift; sourceTree = "<group>"; };
+		CBE70C51235D0093005D3BBF /* ExerciseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseController.swift; sourceTree = "<group>"; };
 		E6F8C08B8C0E8186041C01C0 /* Pods-stanfordHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stanfordHackathon.release.xcconfig"; path = "Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon.release.xcconfig"; sourceTree = "<group>"; };
 		FAE1B8659A91B4A7D8309BC4 /* Pods_SustainabilityApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainabilityApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -100,6 +108,7 @@
 		CB5920FA2123346C002435F9 /* stanfordHackathon */ = {
 			isa = PBXGroup;
 			children = (
+				CBE70C4A235CED12005D3BBF /* Controllers */,
 				CBE70C45235C7490005D3BBF /* Models */,
 				CBE70C3F235C416A005D3BBF /* LoginController.swift */,
 				CBE70C3A235C4132005D3BBF /* RegisterController.swift */,
@@ -142,6 +151,17 @@
 				CBE70C46235C749E005D3BBF /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		CBE70C4A235CED12005D3BBF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBE70C4B235CED2B005D3BBF /* VitalsController.swift */,
+				CBE70C4D235CED5B005D3BBF /* DietController.swift */,
+				CBE70C4F235CFF01005D3BBF /* MedicationController.swift */,
+				CBE70C51235D0093005D3BBF /* ExerciseController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,13 +284,17 @@
 				CBE70C2A235BF9AA005D3BBF /* Colors.swift in Sources */,
 				CBE70C2C235BF9BB005D3BBF /* Anchors.swift in Sources */,
 				CBE70C42235C4795005D3BBF /* DietViewController.swift in Sources */,
+				CBE70C4C235CED2B005D3BBF /* VitalsController.swift in Sources */,
 				CBE70C27235BF8B8005D3BBF /* MenuCell.swift in Sources */,
+				CBE70C4E235CED5B005D3BBF /* DietController.swift in Sources */,
+				CBE70C50235CFF01005D3BBF /* MedicationController.swift in Sources */,
 				CBE70C49235C750D005D3BBF /* NetworkServices.swift in Sources */,
 				CBE70C2E235C0132005D3BBF /* DashboardController.swift in Sources */,
 				CB5920FC2123346C002435F9 /* AppDelegate.swift in Sources */,
 				CBE70C3D235C4132005D3BBF /* RegisterController.swift in Sources */,
 				CBE70C40235C416A005D3BBF /* LoginController.swift in Sources */,
 				CBE70C47235C749E005D3BBF /* User.swift in Sources */,
+				CBE70C52235D0093005D3BBF /* ExerciseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

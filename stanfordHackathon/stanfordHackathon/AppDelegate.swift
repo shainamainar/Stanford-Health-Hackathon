@@ -15,12 +15,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         
-        UINavigationBar.appearance().barTintColor = Color.red
+        UINavigationBar.appearance().barTintColor = Color.backgroundColor
         UINavigationBar.appearance().tintColor = UIColor.white
         UINavigationBar.appearance().titleTextAttributes = [NSAttributedStringKey.foregroundColor : UIColor.white]
                 
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = UINavigationController(rootViewController: DashboardController())
+        //window?.rootViewController = UINavigationController(rootViewController: DashboardController())
+        window?.rootViewController = LoginController()
         window?.makeKeyAndVisible()
 
         return true
