@@ -7,6 +7,11 @@
 //
 
 import UIKit
+<<<<<<< HEAD
+import StitchCore
+import StitchRemoteMongoDBService
+=======
+>>>>>>> origin/master
 
 class DashboardController: UITableViewController {
 
@@ -14,8 +19,34 @@ class DashboardController: UITableViewController {
         super.viewDidLoad()
 
         setUpNavigationBar()
+<<<<<<< HEAD
+        
+        mongoClient()
     }
 
+    private lazy var stitchClient = Stitch.defaultAppClient!
+    
+    func mongoClient(){
+        let client = Stitch.defaultAppClient!
+
+        print("logging in anonymously")
+        client.auth.login(withCredential: AnonymousCredential()) { result in
+                switch result {
+                case .success(let user):
+                    print("logged in anonymous as user \(user.id)")
+                    DispatchQueue.main.async {
+                        // update UI accordingly
+                    }
+                case .failure(let error):
+                    print("Failed to log in: \(error)")
+                }
+            }
+    }
+    
+=======
+    }
+
+>>>>>>> origin/master
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
