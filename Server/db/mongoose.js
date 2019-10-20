@@ -5,7 +5,7 @@ mongoose.Promise = global.Promise;
 
 mongoose
   .connect(
-    `mongodb+srv://${databaseUsername}:${databasePassword}@mongoauth-p7hnd.mongodb.net/test?retryWrites=true&w=majority`,
+    `mongodb+srv://admin:suhacks2019@melli2s-qgwta.gcp.mongodb.net/test?retryWrites=true&w=majority`,
     { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true }
   )
   .then(() => {

@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use('/user', userRoutes);
 app.use('/private', private);
 
-const PORT = 3000;
-app.listen(3000, () => {
+const PORT = 80;
+app.listen(80, () => {
   console.log(`Server started on port ${PORT}`);
 });
