@@ -1,23 +1,26 @@
 
-def parseText(file):
-    recipes = []
+def main():
+    ing2 = parseHash("recipes.txt")
+    print(ing2)
+def parseHash(file):
+    f = open(file, 'r')
+    recipes = {}
+    titles = []
     ingredients = []
-    f = open(file, "r")
     for line in f.readlines():
         if(line[0] != '['):
-            recipes.append(line)
+            titles.append(line.strip('\n'))
+            
         else:
-            ingredients.append(line.split(', '))
-            print(ingredients)
-        
-                      
-    return recipes, ingredients
-def main():
-    recipes = []
-    ingredients = []
-    recipes, ingredients = parseText("recipes.txt")
-    print(len(ingredients))
-    '''for i in range(len(ingredients)):
-        print(ingredients[0])'''
-    
+            line = line.split(', ')
+            newArr = []
+            for x in line:
+                x = x.replace('[', '')
+                x = x.replace(']', '')
+                newArr.append(x.strip('\n'))
+            ingredients.append(newArr)
+    for i in range(len(titles) -1 ):
+        recipes[titles[i]] = ingredients[i]
+    return recipes
 main()
+
