@@ -135,7 +135,7 @@ class Menu: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UIColl
     
     lazy var cancelButton: UIButton = {
         let button = UIButton(type: .custom)
-        button.setImage(UIImage(named: "backMenu"), for: UIControlState.normal)
+        button.setImage(UIImage(named: "backMenu"), for: UIControl.State.normal)
         button.translatesAutoresizingMaskIntoConstraints = false
         
         button.addTarget(self, action: #selector(handleDismiss(_:)), for: .touchUpInside)
@@ -159,7 +159,7 @@ class Menu: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UIColl
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.layer.cornerRadius = 40
         imageView.clipsToBounds = true
-        imageView.contentMode = UIViewContentMode.scaleAspectFill
+        imageView.contentMode = UIView.ContentMode.scaleAspectFill
         
         return imageView
     }()
