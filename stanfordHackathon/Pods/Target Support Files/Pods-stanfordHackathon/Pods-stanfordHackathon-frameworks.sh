@@ -161,38 +161,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MongoMobile/MongoMobile.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MongoSwift/MongoSwift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchCore/StitchCore.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchCoreLocalMongoDBService/StitchCoreLocalMongoDBService.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchCoreSDK/StitchCoreSDK.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchRemoteMongoDBService/StitchRemoteMongoDBService.framework"
-  install_framework "${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework"
-  install_dsym "${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework.dSYM"
-  install_framework "${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework"
-  install_dsym "${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework.dSYM"
-  install_framework "${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework"
-  install_dsym "${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework.dSYM"
-  install_framework "${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework"
-  install_dsym "${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework.dSYM"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/MongoMobile/MongoMobile.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/MongoSwift/MongoSwift.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchCore/StitchCore.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchCoreLocalMongoDBService/StitchCoreLocalMongoDBService.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchCoreSDK/StitchCoreSDK.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/StitchRemoteMongoDBService/StitchRemoteMongoDBService.framework"
-  install_framework "${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework"
-  install_dsym "${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework.dSYM"
-  install_framework "${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework"
-  install_dsym "${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework.dSYM"
-  install_framework "${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework"
-  install_dsym "${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework.dSYM"
-  install_framework "${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework"
-  install_dsym "${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework.dSYM"
+  install_framework "${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

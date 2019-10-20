@@ -17,7 +17,12 @@
 		CBE70C2C235BF9BB005D3BBF /* Anchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C2B235BF9BB005D3BBF /* Anchors.swift */; };
 		CBE70C2E235C0132005D3BBF /* DashboardController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C2D235C0132005D3BBF /* DashboardController.swift */; };
 		CBE70C30235C0360005D3BBF /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C2F235C0360005D3BBF /* SettingsView.swift */; };
-		CBE70C32235C046A005D3BBF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C31235C046A005D3BBF /* LoginController.swift */; };
+		CBE70C3D235C4132005D3BBF /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C3A235C4132005D3BBF /* RegisterController.swift */; };
+		CBE70C40235C416A005D3BBF /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C3F235C416A005D3BBF /* LoginController.swift */; };
+		CBE70C42235C4795005D3BBF /* DietViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C41235C4795005D3BBF /* DietViewController.swift */; };
+		CBE70C44235C5C67005D3BBF /* dribbble-lines.gif in Resources */ = {isa = PBXBuildFile; fileRef = CBE70C43235C5C67005D3BBF /* dribbble-lines.gif */; };
+		CBE70C47235C749E005D3BBF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C46235C749E005D3BBF /* User.swift */; };
+		CBE70C49235C750D005D3BBF /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE70C48235C750D005D3BBF /* NetworkServices.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,7 +39,12 @@
 		CBE70C2B235BF9BB005D3BBF /* Anchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Anchors.swift; sourceTree = "<group>"; };
 		CBE70C2D235C0132005D3BBF /* DashboardController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardController.swift; sourceTree = "<group>"; };
 		CBE70C2F235C0360005D3BBF /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		CBE70C31235C046A005D3BBF /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CBE70C3A235C4132005D3BBF /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterController.swift; path = ../../../../.Trash/RegisterController.swift; sourceTree = "<group>"; };
+		CBE70C3F235C416A005D3BBF /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginController.swift; path = ../../../LoginController.swift; sourceTree = "<group>"; };
+		CBE70C41235C4795005D3BBF /* DietViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietViewController.swift; sourceTree = "<group>"; };
+		CBE70C43235C5C67005D3BBF /* dribbble-lines.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "dribbble-lines.gif"; path = "../../../dribbble-lines.gif"; sourceTree = "<group>"; };
+		CBE70C46235C749E005D3BBF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CBE70C48235C750D005D3BBF /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 		E6F8C08B8C0E8186041C01C0 /* Pods-stanfordHackathon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-stanfordHackathon.release.xcconfig"; path = "Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon.release.xcconfig"; sourceTree = "<group>"; };
 		FAE1B8659A91B4A7D8309BC4 /* Pods_SustainabilityApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SustainabilityApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,15 +100,20 @@
 		CB5920FA2123346C002435F9 /* stanfordHackathon */ = {
 			isa = PBXGroup;
 			children = (
+				CBE70C45235C7490005D3BBF /* Models */,
+				CBE70C3F235C416A005D3BBF /* LoginController.swift */,
+				CBE70C3A235C4132005D3BBF /* RegisterController.swift */,
 				CBE70C2D235C0132005D3BBF /* DashboardController.swift */,
 				CBE70C23235BF89F005D3BBF /* Menu */,
 				CB5921042123346C002435F9 /* LaunchScreen.storyboard */,
-				CB5920FB2123346C002435F9 /* AppDelegate.swift */,
 				CB5921022123346C002435F9 /* Assets.xcassets */,
 				CB5921072123346C002435F9 /* Info.plist */,
+				CBE70C48235C750D005D3BBF /* NetworkServices.swift */,
 				CBE70C28235BF983005D3BBF /* Extensions */,
 				CBE70C2F235C0360005D3BBF /* SettingsView.swift */,
-				CBE70C31235C046A005D3BBF /* LoginController.swift */,
+				CB5920FB2123346C002435F9 /* AppDelegate.swift */,
+				CBE70C41235C4795005D3BBF /* DietViewController.swift */,
+				CBE70C43235C5C67005D3BBF /* dribbble-lines.gif */,
 			);
 			path = stanfordHackathon;
 			sourceTree = "<group>";
@@ -121,6 +136,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		CBE70C45235C7490005D3BBF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CBE70C46235C749E005D3BBF /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,10 +155,7 @@
 				CB5920F42123346C002435F9 /* Sources */,
 				CB5920F52123346C002435F9 /* Frameworks */,
 				CB5920F62123346C002435F9 /* Resources */,
-<<<<<<< HEAD
-				D2CB62B5A6BB8C56EF4575D7 /* [CP] Embed Pods Frameworks */,
-=======
->>>>>>> origin/master
+				7A63B3BE9F9A7D370F902DC0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,10 +179,6 @@
 					CB5920F72123346C002435F9 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = QQ9GJ5JUCU;
-<<<<<<< HEAD
-						LastSwiftMigration = 1100;
-=======
->>>>>>> origin/master
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -191,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE70C44235C5C67005D3BBF /* dribbble-lines.gif in Resources */,
 				CB5921062123346C002435F9 /* LaunchScreen.storyboard in Resources */,
 				CB5921032123346C002435F9 /* Assets.xcassets in Resources */,
 			);
@@ -217,55 +234,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-<<<<<<< HEAD
-		D2CB62B5A6BB8C56EF4575D7 /* [CP] Embed Pods Frameworks */ = {
+		7A63B3BE9F9A7D370F902DC0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MongoMobile/MongoMobile.framework",
-				"${BUILT_PRODUCTS_DIR}/MongoSwift/MongoSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/StitchCore/StitchCore.framework",
-				"${BUILT_PRODUCTS_DIR}/StitchCoreLocalMongoDBService/StitchCoreLocalMongoDBService.framework",
-				"${BUILT_PRODUCTS_DIR}/StitchCoreRemoteMongoDBService/StitchCoreRemoteMongoDBService.framework",
-				"${BUILT_PRODUCTS_DIR}/StitchCoreSDK/StitchCoreSDK.framework",
-				"${BUILT_PRODUCTS_DIR}/StitchRemoteMongoDBService/StitchRemoteMongoDBService.framework",
-				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework",
-				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/bson.framework.dSYM",
-				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework",
-				"${PODS_ROOT}/mongo-embedded-c-driver/iPhoneOS/Frameworks/mongoc.framework.dSYM",
-				"${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework",
-				"${PODS_ROOT}/mongo_embedded/iPhoneOS/Frameworks/mongo_embedded.framework.dSYM",
-				"${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework",
-				"${PODS_ROOT}/mongoc_embedded/iPhoneOS/Frameworks/mongoc_embedded.framework.dSYM",
+				"${BUILT_PRODUCTS_DIR}/SwiftGifOrigin/SwiftGifOrigin.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MongoMobile.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MongoSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreLocalMongoDBService.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreRemoteMongoDBService.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchCoreSDK.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/StitchRemoteMongoDBService.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/bson.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/bson.framework.dSYM",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongoc.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/mongoc.framework.dSYM",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongo_embedded.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/mongo_embedded.framework.dSYM",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/mongoc_embedded.framework",
-				"${DWARF_DSYM_FOLDER_PATH}/mongoc_embedded.framework.dSYM",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftGifOrigin.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-stanfordHackathon/Pods-stanfordHackathon-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-=======
->>>>>>> origin/master
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -277,10 +263,14 @@
 				CBE70C25235BF8AE005D3BBF /* Menu.swift in Sources */,
 				CBE70C2A235BF9AA005D3BBF /* Colors.swift in Sources */,
 				CBE70C2C235BF9BB005D3BBF /* Anchors.swift in Sources */,
+				CBE70C42235C4795005D3BBF /* DietViewController.swift in Sources */,
 				CBE70C27235BF8B8005D3BBF /* MenuCell.swift in Sources */,
-				CBE70C32235C046A005D3BBF /* LoginController.swift in Sources */,
+				CBE70C49235C750D005D3BBF /* NetworkServices.swift in Sources */,
 				CBE70C2E235C0132005D3BBF /* DashboardController.swift in Sources */,
 				CB5920FC2123346C002435F9 /* AppDelegate.swift in Sources */,
+				CBE70C3D235C4132005D3BBF /* RegisterController.swift in Sources */,
+				CBE70C40235C416A005D3BBF /* LoginController.swift in Sources */,
+				CBE70C47235C749E005D3BBF /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,11 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-<<<<<<< HEAD
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-=======
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
->>>>>>> origin/master
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -388,11 +374,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-<<<<<<< HEAD
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-=======
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
->>>>>>> origin/master
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -411,11 +393,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chandlerlong.stanfordHackathon;
 				PRODUCT_NAME = stanfordHackathon;
-<<<<<<< HEAD
-				SWIFT_VERSION = 5.0;
-=======
 				SWIFT_VERSION = 4.0;
->>>>>>> origin/master
 			};
 			name = Debug;
 		};
@@ -429,11 +407,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chandlerlong.stanfordHackathon;
 				PRODUCT_NAME = stanfordHackathon;
-<<<<<<< HEAD
-				SWIFT_VERSION = 5.0;
-=======
 				SWIFT_VERSION = 4.0;
->>>>>>> origin/master
 			};
 			name = Release;
 		};

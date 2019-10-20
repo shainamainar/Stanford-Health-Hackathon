@@ -107,9 +107,7 @@ class Menu: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UIColl
                 self.dashboardController?.displayController(menuOption: menuOption, view: SettingsView(frame: UIScreen.main.bounds))
             case "Logout":
                 print("Going Calendar")
-                let loginController = LoginController()
-                let root = UIApplication.shared.keyWindow!.rootViewController!
-                root.present(loginController, animated: true, completion: nil)
+                self.dashboardController?.handleLogout()
             default:
                 print("Staying on home page")
             }
@@ -135,11 +133,7 @@ class Menu: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UIColl
     
     lazy var cancelButton: UIButton = {
         let button = UIButton(type: .custom)
-<<<<<<< HEAD
-        button.setImage(UIImage(named: "backMenu"), for: UIControl.State.normal)
-=======
         button.setImage(UIImage(named: "backMenu"), for: UIControlState.normal)
->>>>>>> origin/master
         button.translatesAutoresizingMaskIntoConstraints = false
         
         button.addTarget(self, action: #selector(handleDismiss(_:)), for: .touchUpInside)
@@ -163,11 +157,7 @@ class Menu: UIView, UICollectionViewDataSource, UICollectionViewDelegate, UIColl
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.layer.cornerRadius = 40
         imageView.clipsToBounds = true
-<<<<<<< HEAD
-        imageView.contentMode = UIView.ContentMode.scaleAspectFill
-=======
         imageView.contentMode = UIViewContentMode.scaleAspectFill
->>>>>>> origin/master
         
         return imageView
     }()
